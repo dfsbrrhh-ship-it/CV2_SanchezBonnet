@@ -1,0 +1,64 @@
+#Nombre {
+
+
+
+    text-align: left;
+    border: solid 1px;
+    padding: 8px;
+    margin: auto;
+    width: 85%;
+background-color: #dfe6f8;
+}
+
+legend {
+    border: solid 1px;
+    border-radius: 15px;
+    background-color: rgb(203, 193, 248); 
+    font-weight: bold;
+    border:rgb(0, 0, 0)
+}
+
+img {
+    display: block;
+    margin-right: 100;
+
+}
+
+
+body {
+
+   background: url(imagenes/tecnologia.jpg);
+    
+}
+
+#btn-modo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+.modo-oscuro {
+    background: #121212 !important; 
+    color: #e0e0e0; 
+}
+
+.modo-oscuro #Nombre {
+    background-color: #333; 
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+.modo-oscuro legend {
+    background-color: #555; 
+    color: #fff;
+    border-color: #e0e0e0;
+}
